@@ -1,0 +1,68 @@
+body, html{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-color: #d3d3d3;
+}
+.main {
+  margin-top: 0px;
+}
+h1.title {
+  font-size: 30px;
+}
+hr{
+  width: 10%;
+  color: #fff;
+}
+.form-group{
+  margin-bottom: 10px;
+}
+label{
+  margin-bottom: 10px;
+}
+
+.main-login{
+  background-color: #fff;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.main-center{
+  margin: 0px 0px auto auto;
+  max-width: 330px;
+  padding: 20px 40px;
+}
+.login-button{
+  margin-top: 5px;
+}
+.login-register{
+  font-size: 15px;
+  text-align: center;
+}
+.alert.short {
+  color: #b1b1b1;
+}
+.alert.cannot.be.empty,
+.alert.weak {
+  color: #ec8b28;
+}
+.alert.medium {
+  color: #1aa9db;
+}
+.alert.strong {
+  color: #24a900;
+}
+.alert.Not.Matched {
+  color: #ec8b28;
+}
+.alert.Matched {
+  color: #24a900;
+}
+.highlight{
+  color:#ec8b28;
+}
+
+
+

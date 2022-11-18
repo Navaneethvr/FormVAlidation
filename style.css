@@ -1,0 +1,254 @@
+
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand {
+  color:black;
+}
+
+.navbar-scroll .nav-link:hover {
+  color: #1266f1;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+  color: #4f4f4f;
+}
+
+
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color:white;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+body{
+  background-color:white;
+}
+
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+    .socio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 10vh;
+        font: 16px Roboto, sans-serif;
+        background: #f9f9f9;
+    
+     }
+     .socio p{
+      height: 0em;
+      font-size: medium ;
+      color: black;
+     }
+    
+    .c-icon {
+        width: 2rem;
+        height: 2rem;
+        align-items: center;
+        align-content: center;
+        
+    }
+    
+    .c-link--facebook:hover  { color: #3b5998 }
+    .c-link--twitter:hover   { color: #55acee }
+    .c-link--google:hover    { color: #dd4b39 }
+    .c-link--pinterest:hover { color: #bd081c }
+    .c-link--instagram:hover { color: #833ab4 }
+    .c-link--snapchat:hover  { color: #fbe00f }
+    .c-link--facebook:hover::after  { background: #3b5998 }
+    .c-link--twitter:hover::after   { background: #55acee }
+    .c-link--google:hover::after    { background: #dd4b39 }
+    .c-link--pinterest:hover::after { background: #bd081c }
+    .c-link--instagram:hover::after { background: #833ab4 }
+    .c-link--snapchat:hover::after  { background: #fbe00f }
+    
+    .c-link {
+        position: relative;
+        color: #bbb;
+    }
+    
+    .c-link:not(:last-of-type) {
+        margin-right: 15px;
+    }
+    
+    .c-tooltip::before,
+    .c-tooltip::after {
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -10px);
+        opacity: 0;
+        transition: .2s;
+    }
+    
+    .c-tooltip::before {
+        content: '';
+        bottom: calc(100% + 2px);
+        border: solid 5px transparent;
+        border-top-color: currentColor;
+    }
+    
+    .c-tooltip::after {
+        content: attr(aria-label);
+        bottom: calc(100% + 12px);
+        padding: .61em .93em;
+        font-size: .875rem;
+        color: white;
+        border-radius: 3px;
+    }
+    
+    .c-tooltip:hover::before,
+    .c-tooltip:hover::after {
+        opacity: 1;
+        transform: translate(-50%);
+    }
+    
+    .pens-link-container {
+        flex-basis: 100%;
+        font-size: .9rem;
+        text-align: center;
+    }
+    
+    .pens-link {
+        margin-bottom: 0;
+        background: white;
+        box-shadow: 0 4px 18px rgba(0, 0, 0, .1);
+        border: none;
+    }
+    /* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+/* Override UGG site */
+#main {width: 100%; padding:0;}
+.content-asset p {margin:0 auto;}
+.breadcrumb {display:none;}
+
+/* Helpers */
+/**************************/
+.margin-top-10 {padding-top:10px;}
+.margin-bot-10 {padding-bottom:10px;}
+
+/* Typography */
+/**************************/
+#parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
+#parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
+#parallax-world-of-ugg p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
+.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+
+.sc {color: #3b8595;}
+.ny {color: #3d3c3a;}
+.atw {color: #c48660;}
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
+#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;}
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
+#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
+#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one-wayanad{padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image:url("wayanad-wildlife-sanctuary-tourism-entry-fee-timings-holidays-reviews-header.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-one-kzhd{padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image:url("kozhikode_beach20150811065516_256_1.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-one-tvm {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("photo-1601.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one-kott {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("Thazhathangadi_Kottayam_2574.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one-kollam {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("jatayu_adventure_centre20180919110336_262_2.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one-knr {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("1200px-Theyyam_of_Kerala_3.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one-iduk {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("Idukki009.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one-erklm{padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("4_1.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one-alpz {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("alleppey-kerala-tourism-entry-fee-timings-holidays-reviews-header.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one-ksrgd {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("1507707468_kasaragod1.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one-mala {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("Nilambur-05112019100723.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one-palkd {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("palakkad-kerala-tourism-entry-fee-timings-holidays-reviews-header.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one-thsr {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("20170330115924_321_1.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one-ptnm {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("Sabarimala_temple_during_Periyar_butterfly_survey_at_Sabarimala\,_2014_\(20\).jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one-explr {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width:100%;background-image: url("monsoon-640x360.jpg"); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+}
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
+  #parallax-world-of-ugg h2 {font-size:30px;}
+  #parallax-world-of-ugg .block {padding: 30px;}
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three,#parallax-world-of-ugg .parallax-four,#parallax-world-of-ugg .parallax-five,#parallax-world-of-ugg .parallax-six {padding-top:100px; padding-bottom:100px;}
+}
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+}
+/*explore*/
+
+.test-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+
+/**
+  Doll up pen a little
+*/
+body {
+  background-color: #f2e9e4;
+  padding-top: 5vh;
+  line-height: 1.75em;
+  color: #22223b;
+  font-family: serif;
+}
+
+img {
+  width: 80%;
+  height: auto;
+}
+
